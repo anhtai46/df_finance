@@ -2,7 +2,7 @@
 
 import streamlit as st
 import pandas as pd
-import google.generativeai as genai
+from google import genai
 from google.api_core.exceptions import GoogleAPICallError
 
 # --- Cấu hình Trang Streamlit ---
