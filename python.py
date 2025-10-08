@@ -165,7 +165,7 @@ if 'df_processed' in st.session_state:
                     genai.configure(api_key=api_key)
                     
                     if 'chat_session' not in st.session_state:
-                        model = genai.GenerativeModel('gemini-1.5-flash')
+                        model = genai.GenerativeModel('gemini-2.5-flash')
                         st.session_state.chat_session = model.start_chat(history=[])
                         st.session_state.messages = []
 
