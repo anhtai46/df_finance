@@ -16,4 +16,5 @@ openpyxl
 tabulate
 
 google-generativeai
+streamlit-modal
 
