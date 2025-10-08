@@ -3,7 +3,7 @@
 import streamlit as st
 import pandas as pd
 from google import genai
-from google.api_core.exceptions import GoogleAPICallError
+from google.genai.errors import APIError
 
 # --- Cấu hình Trang Streamlit ---
 st.set_page_config(
