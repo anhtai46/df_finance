@@ -15,6 +15,9 @@ openpyxl
 # THÊM THƯ VIỆN NÀY ĐỂ GIẢI QUYẾT LỖI to_markdown()
 tabulate
 
+scikit-learn
 google-generativeai
 streamlit-modal
+LogisticRegression
+python-dotenv
 
